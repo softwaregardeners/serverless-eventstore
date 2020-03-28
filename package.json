@@ -1,0 +1,15 @@
+{
+  "name": "serverless-event-store",
+  "version": "1.0.0",
+  "main": "serverless.js",
+  "author": "Brice Carpentier <brice@software-gardeners.fr> <brice@daknet.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "@serverless/core": "^1.1.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^2.0.2"
+  }
+}
