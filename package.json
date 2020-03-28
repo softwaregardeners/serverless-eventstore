@@ -1,15 +1,23 @@
 {
-  "name": "serverless-event-store",
+  "name": "@softwaregardeners/serverless-eventstore",
+  "description": "serverless component that implements a dynamodb event store",
   "version": "1.0.0",
   "main": "serverless.js",
   "author": "Brice Carpentier <brice@software-gardeners.fr> <brice@daknet.org>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
-    "@serverless/core": "^1.1.2",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^25.2.3",
     "prettier": "^2.0.2"
+  },
+  "dependencies": {
+    "@serverless/core": "^1.1.2",
+    "@serverless/aws-dynamodb": "^4.0.0"
   }
 }
